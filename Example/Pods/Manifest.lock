@@ -2,51 +2,51 @@ PODS:
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
-  - SPDebugTool (0.2.0):
-    - SPDebugTool/AppInfo (= 0.2.0)
-    - SPDebugTool/Core (= 0.2.0)
-    - SPDebugTool/Crash (= 0.2.0)
-    - SPDebugTool/Hierarchy (= 0.2.0)
-    - SPDebugTool/Html (= 0.2.0)
-    - SPDebugTool/Location (= 0.2.0)
-    - SPDebugTool/Log (= 0.2.0)
-    - SPDebugTool/Magnifier (= 0.2.0)
-    - SPDebugTool/Network (= 0.2.0)
-    - SPDebugTool/Ruler (= 0.2.0)
-    - SPDebugTool/Sandbox (= 0.2.0)
-    - SPDebugTool/Screenshot (= 0.2.0)
-    - SPDebugTool/ShortCut (= 0.2.0)
-    - SPDebugTool/Storage (= 0.2.0)
-    - SPDebugTool/WidgetBorder (= 0.2.0)
-  - SPDebugTool/AppInfo (0.2.0):
+  - SPDebugTool (0.2.1):
+    - SPDebugTool/AppInfo (= 0.2.1)
+    - SPDebugTool/Core (= 0.2.1)
+    - SPDebugTool/Crash (= 0.2.1)
+    - SPDebugTool/Hierarchy (= 0.2.1)
+    - SPDebugTool/Html (= 0.2.1)
+    - SPDebugTool/Location (= 0.2.1)
+    - SPDebugTool/Log (= 0.2.1)
+    - SPDebugTool/Magnifier (= 0.2.1)
+    - SPDebugTool/Network (= 0.2.1)
+    - SPDebugTool/Ruler (= 0.2.1)
+    - SPDebugTool/Sandbox (= 0.2.1)
+    - SPDebugTool/Screenshot (= 0.2.1)
+    - SPDebugTool/ShortCut (= 0.2.1)
+    - SPDebugTool/Storage (= 0.2.1)
+    - SPDebugTool/WidgetBorder (= 0.2.1)
+  - SPDebugTool/AppInfo (0.2.1):
     - SPDebugTool/Core
-  - SPDebugTool/Core (0.2.0)
-  - SPDebugTool/Crash (0.2.0):
+  - SPDebugTool/Core (0.2.1)
+  - SPDebugTool/Crash (0.2.1):
     - SPDebugTool/Storage
-  - SPDebugTool/Hierarchy (0.2.0):
+  - SPDebugTool/Hierarchy (0.2.1):
     - SPDebugTool/Core
-  - SPDebugTool/Html (0.2.0):
+  - SPDebugTool/Html (0.2.1):
     - SPDebugTool/Core
-  - SPDebugTool/Location (0.2.0):
+  - SPDebugTool/Location (0.2.1):
     - SPDebugTool/Core
-  - SPDebugTool/Log (0.2.0):
+  - SPDebugTool/Log (0.2.1):
     - SPDebugTool/Storage
-  - SPDebugTool/Magnifier (0.2.0):
+  - SPDebugTool/Magnifier (0.2.1):
     - SPDebugTool/Core
-  - SPDebugTool/Network (0.2.0):
+  - SPDebugTool/Network (0.2.1):
     - SPDebugTool/Storage
-  - SPDebugTool/Ruler (0.2.0):
+  - SPDebugTool/Ruler (0.2.1):
     - SPDebugTool/Core
-  - SPDebugTool/Sandbox (0.2.0):
+  - SPDebugTool/Sandbox (0.2.1):
     - SPDebugTool/Core
-  - SPDebugTool/Screenshot (0.2.0):
+  - SPDebugTool/Screenshot (0.2.1):
     - SPDebugTool/Core
-  - SPDebugTool/ShortCut (0.2.0):
+  - SPDebugTool/ShortCut (0.2.1):
     - SPDebugTool/Core
-  - SPDebugTool/Storage (0.2.0):
+  - SPDebugTool/Storage (0.2.1):
     - FMDB (~> 2.0)
     - SPDebugTool/Core
-  - SPDebugTool/WidgetBorder (0.2.0):
+  - SPDebugTool/WidgetBorder (0.2.1):
     - SPDebugTool/Core
 
 DEPENDENCIES:
@@ -62,7 +62,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
-  SPDebugTool: 690bc0fcbd2fe43e41c05cfdbcd42be4cf5a93f1
+  SPDebugTool: f7f40715649ef39d2a20bd13d774e257c4b6c51b
 
 PODFILE CHECKSUM: 7b994a1cfcfb4f51bdbded870e12ae39da148a72
 

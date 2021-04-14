@@ -1,8 +1,8 @@
 {
   "name": "SPDebugTool",
-  "version": "0.2.0",
-  "summary": "网络，cpu内存崩溃等调试工具",
-  "homepage": "http://git.hub.com/lishiping/SPDebugTool",
+  "version": "0.2.1",
+  "summary": "网络cpu内存延迟崩溃沙盒日志等调试工具",
+  "homepage": "https://github.com/lishiping/SPDebugTool",
   "license": "MIT",
   "authors": {
     "lishiping": "83118274@qq.com"
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/lishiping/SPDebugTool.git",
-    "tag": "0.2.0"
+    "tag": "0.2.1"
   },
   "requires_arc": true,
   "subspecs": [
@@ -25,7 +25,7 @@
         "CoreTelephony"
       ],
       "pod_target_xcconfig": {
-        "GCC_PREPROCESSOR_DEFINITIONS": "SPDEBUGTOOL_IOS_NETWORK=1"
+        "GCC_PREPROCESSOR_DEFINITIONS": "SPDEBUGTOOL_NETWORK=1"
       },
       "dependencies": {
         "SPDebugTool/Storage": [
@@ -38,7 +38,7 @@
       "public_header_files": "SPDebugTool/Core/Component/Log/**/*.h",
       "source_files": "SPDebugTool/Core/Component/Log/**/*.{h,m}",
       "pod_target_xcconfig": {
-        "GCC_PREPROCESSOR_DEFINITIONS": "SPDEBUGTOOL_IOS_LOG=1"
+        "GCC_PREPROCESSOR_DEFINITIONS": "SPDEBUGTOOL_LOG=1"
       },
       "dependencies": {
         "SPDebugTool/Storage": [
@@ -65,7 +65,7 @@
       "source_files": "SPDebugTool/Core/Component/AppInfo/**/*.{h,m}",
       "frameworks": "SystemConfiguration",
       "pod_target_xcconfig": {
-        "GCC_PREPROCESSOR_DEFINITIONS": "SPDEBUGTOOL_IOS_APP_INFO=1"
+        "GCC_PREPROCESSOR_DEFINITIONS": "SPDEBUGTOOL_APP_INFO=1"
       },
       "dependencies": {
         "SPDebugTool/Core": [
@@ -83,7 +83,7 @@
         "AVKit"
       ],
       "pod_target_xcconfig": {
-        "GCC_PREPROCESSOR_DEFINITIONS": "SPDEBUGTOOL_IOS_SANDBOX=1"
+        "GCC_PREPROCESSOR_DEFINITIONS": "SPDEBUGTOOL_SANDBOX=1"
       },
       "dependencies": {
         "SPDebugTool/Core": [
@@ -97,7 +97,7 @@
       "source_files": "SPDebugTool/Core/Component/Screenshot/**/*.{h,m}",
       "frameworks": "Photos",
       "pod_target_xcconfig": {
-        "GCC_PREPROCESSOR_DEFINITIONS": "SPDEBUGTOOL_IOS_SCREENSHOT=1"
+        "GCC_PREPROCESSOR_DEFINITIONS": "SPDEBUGTOOL_SCREENSHOT=1"
       },
       "dependencies": {
         "SPDebugTool/Core": [
@@ -110,7 +110,7 @@
       "public_header_files": "SPDebugTool/Core/Component/Hierarchy/**/*.h",
       "source_files": "SPDebugTool/Core/Component/Hierarchy/**/*.{h,m}",
       "pod_target_xcconfig": {
-        "GCC_PREPROCESSOR_DEFINITIONS": "SPDEBUGTOOL_IOS_HIERARCHY=1"
+        "GCC_PREPROCESSOR_DEFINITIONS": "SPDEBUGTOOL_HIERARCHY=1"
       },
       "dependencies": {
         "SPDebugTool/Core": [
@@ -123,7 +123,7 @@
       "public_header_files": "SPDebugTool/Core/Component/Magnifier/**/*.h",
       "source_files": "SPDebugTool/Core/Component/Magnifier/**/*.{h,m}",
       "pod_target_xcconfig": {
-        "GCC_PREPROCESSOR_DEFINITIONS": "SPDEBUGTOOL_IOS_MAGNIFIER=1"
+        "GCC_PREPROCESSOR_DEFINITIONS": "SPDEBUGTOOL_MAGNIFIER=1"
       },
       "dependencies": {
         "SPDebugTool/Core": [
@@ -136,7 +136,7 @@
       "public_header_files": "SPDebugTool/Core/Component/Ruler/**/*.h",
       "source_files": "SPDebugTool/Core/Component/Ruler/**/*.{h,m}",
       "pod_target_xcconfig": {
-        "GCC_PREPROCESSOR_DEFINITIONS": "SPDEBUGTOOL_IOS_RULER=1"
+        "GCC_PREPROCESSOR_DEFINITIONS": "SPDEBUGTOOL_RULER=1"
       },
       "dependencies": {
         "SPDebugTool/Core": [
@@ -149,7 +149,7 @@
       "public_header_files": "SPDebugTool/Core/Component/WidgetBorder/**/*.h",
       "source_files": "SPDebugTool/Core/Component/WidgetBorder/**/*.{h,m}",
       "pod_target_xcconfig": {
-        "GCC_PREPROCESSOR_DEFINITIONS": "SPDEBUGTOOL_IOS_WIDGET_BORDER=1"
+        "GCC_PREPROCESSOR_DEFINITIONS": "SPDEBUGTOOL_WIDGET_BORDER=1"
       },
       "dependencies": {
         "SPDebugTool/Core": [
@@ -163,7 +163,7 @@
       "source_files": "SPDebugTool/Core/Component/Html/**/*.{h,m}",
       "frameworks": "WebKit",
       "pod_target_xcconfig": {
-        "GCC_PREPROCESSOR_DEFINITIONS": "SPDEBUGTOOL_IOS_HTML=1"
+        "GCC_PREPROCESSOR_DEFINITIONS": "SPDEBUGTOOL_HTML=1"
       },
       "dependencies": {
         "SPDebugTool/Core": [
@@ -180,7 +180,7 @@
         "MapKit"
       ],
       "pod_target_xcconfig": {
-        "GCC_PREPROCESSOR_DEFINITIONS": "SPDEBUGTOOL_IOS_LOCATION=1"
+        "GCC_PREPROCESSOR_DEFINITIONS": "SPDEBUGTOOL_LOCATION=1"
       },
       "dependencies": {
         "SPDebugTool/Core": [
@@ -193,7 +193,7 @@
       "public_header_files": "SPDebugTool/Core/Component/ShortCut/**/*.h",
       "source_files": "SPDebugTool/Core/Component/ShortCut/**/*.{h,m}",
       "pod_target_xcconfig": {
-        "GCC_PREPROCESSOR_DEFINITIONS": "SPDEBUGTOOL_IOS_SHORT_CUT=1"
+        "GCC_PREPROCESSOR_DEFINITIONS": "SPDEBUGTOOL_SHORT_CUT=1"
       },
       "dependencies": {
         "SPDebugTool/Core": [
