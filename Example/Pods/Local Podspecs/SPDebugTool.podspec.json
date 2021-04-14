@@ -1,6 +1,6 @@
 {
   "name": "SPDebugTool",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "summary": "网络cpu内存延迟崩溃沙盒日志等调试工具",
   "homepage": "https://github.com/lishiping/SPDebugTool",
   "license": "MIT",
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/lishiping/SPDebugTool.git",
-    "tag": "0.2.1"
+    "tag": "0.2.2"
   },
   "requires_arc": true,
   "subspecs": [

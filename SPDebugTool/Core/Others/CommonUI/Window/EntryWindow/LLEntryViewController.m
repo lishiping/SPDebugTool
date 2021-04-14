@@ -33,7 +33,7 @@
 #import "LLConfig.h"
 #import "LLConst.h"
 #import "LLTool.h"
-#import "LLAppInfo.h"
+#import "LLAppInfoHelper.h"
 
 #import "UIView+LL_Utils.h"
 
