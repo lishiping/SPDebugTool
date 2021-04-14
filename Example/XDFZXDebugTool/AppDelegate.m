@@ -43,9 +43,9 @@
     [[LLWindowManager shared] showEntryWindow];
 }
 
-- (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(nullable UIWindow *)window {
-    return UIInterfaceOrientationMaskLandscape;
-}
+//- (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(nullable UIWindow *)window {
+//    return UIInterfaceOrientationMaskLandscape;
+//}
 
 #pragma mark - UISceneSession lifecycle
 

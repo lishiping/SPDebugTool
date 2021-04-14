@@ -63,23 +63,23 @@
     return NO;
 }
 
-- (BOOL)shouldAutorotate {
-    return NO;
-}
+//- (BOOL)shouldAutorotate {
+//    return NO;
+//}
 
-- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
-//    if ([self.visibleViewController isKindOfClass:[LLBaseViewController class]]) {
-//        return [self.visibleViewController supportedInterfaceOrientations];
-//    }
-    return UIInterfaceOrientationMaskLandscapeRight;
-}
+//- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
+////    if ([self.visibleViewController isKindOfClass:[LLBaseViewController class]]) {
+////        return [self.visibleViewController supportedInterfaceOrientations];
+////    }
+//    return UIInterfaceOrientationMaskLandscapeRight;
+//}
 
-- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation {
-//    if ([self.visibleViewController isKindOfClass:[LLBaseViewController class]]) {
-//        return [self.visibleViewController preferredInterfaceOrientationForPresentation];
-//    }
-    return UIInterfaceOrientationLandscapeRight;
-}
+//- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation {
+////    if ([self.visibleViewController isKindOfClass:[LLBaseViewController class]]) {
+////        return [self.visibleViewController preferredInterfaceOrientationForPresentation];
+////    }
+//    return UIInterfaceOrientationLandscapeRight;
+//}
 
 #pragma mark - LLDebugToolUpdateThemeNotificationName
 - (void)didReceiveDebugToolUpdateThemeNotification:(NSNotification *)notification {
