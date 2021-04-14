@@ -1,0 +1,5 @@
+use_frameworks!
+target 'XDFZXDebugTool' do
+  pod 'SPDebugTool', :path => '../'
+  
+end

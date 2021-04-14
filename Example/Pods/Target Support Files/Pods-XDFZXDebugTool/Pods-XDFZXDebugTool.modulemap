@@ -1,0 +1,6 @@
+framework module Pods_XDFZXDebugTool {
+  umbrella header "Pods-XDFZXDebugTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
