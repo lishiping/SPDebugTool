@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = "SPDebugTool"
-  s.version             = "0.2.2"
+  s.version             = "0.2.3"
   s.summary             = "网络cpu内存延迟崩溃沙盒日志等调试工具"
   s.homepage            = "https://github.com/lishiping/SPDebugTool"
   s.license             = "MIT"
