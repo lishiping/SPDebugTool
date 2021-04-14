@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name                = "SPDebugTool"
-  s.version             = "0.2.0"
-  s.summary             = "网络，cpu内存崩溃等调试工具"
+  s.version             = "0.2.1"
+  s.summary             = "网络cpu内存延迟崩溃沙盒日志等调试工具"
   s.homepage            = "http://git.hub.com/lishiping/SPDebugTool"
   s.license             = "MIT"
   s.author              = { "lishiping" => "83118274@qq.com" }
